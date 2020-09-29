@@ -1,0 +1,16 @@
+program ArrayFun;
+
+    begin
+
+        array Bob[1..10,3..20,2..10];
+
+        array Bob2[0..12,1..5,4..80,5..90];
+
+        Bob[2,5,8] = 2;
+
+        Bob2[5,5,5,5] = 5;
+
+	write Bob[2,5,8];
+	write Bob2[5,5,5,5];
+
+    end.

@@ -1,0 +1,10 @@
+program Test;
+
+    begin
+		num X = 2;
+		num Y = 2;
+		num Z = 2;
+		num result;
+		result = (1 - 2) - (2 - 1);
+		write result;
+    end.
